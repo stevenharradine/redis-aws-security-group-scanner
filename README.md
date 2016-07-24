@@ -19,5 +19,5 @@ aws ec2 describe-security-groups > securityGroups.json
 
 ### Scan for open security groups
 ```
-node findredis.js > results.txt
+node findredis.js
 ```
