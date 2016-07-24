@@ -17,7 +17,7 @@ aws ec2 describe-instances > instances.json
 aws ec2 describe-security-groups > securityGroups.json
 ```
 
-### Scan for data for open security groups
+### Scan for open security groups
 ```
 node findredis.js > results.txt
 ```
